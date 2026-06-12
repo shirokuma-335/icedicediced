@@ -33,7 +33,7 @@
 </head>
 <body>
 
-<img id="pic" src="https://drive.google.com/file/d/1YLRU7VF2rADI1AXEtgElVEIHnfrZu8AO/view?usp=drive_link">
+<img id="pic" src="https://drive.google.com/uc?export=view&id=1YLRU7VF2rADI1AXEtgElVEIHnfrZu8AO">
 
 <script>
 const pic = document.getElementById("pic");
@@ -44,8 +44,8 @@ pic.addEventListener("click", () => {
 
   setTimeout(() => {
     pic.src = showingTruth
-      ? "https://drive.google.com/file/d/1YLRU7VF2rADI1AXEtgElVEIHnfrZu8AO/view?usp=drive_link"
-      : "https://drive.google.com/file/d/1-n2FV_ixOLLSGJnQr5wiGnBPtdI3XCOQ/view?usp=drive_link";
+      ? "https://drive.google.com/uc?export=view&id=1YLRU7VF2rADI1AXEtgElVEIHnfrZu8AO"
+      : "https://drive.google.com/uc?export=view&id=1-n2FV_ixOLLSGJnQr5wiGnBPtdI3XCOQ";
 
     showingTruth = !showingTruth;
     pic.classList.remove("glitch");
