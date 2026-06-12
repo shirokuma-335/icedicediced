@@ -33,7 +33,7 @@
 </head>
 <body>
 
-<img id="pic" src="https://picsum.photos/id/237/536/354">
+<img id="pic" src="https://picsum.photos/seed/picsum/536/354">
 
 <script>
 const pic = document.getElementById("pic");
@@ -44,8 +44,8 @@ pic.addEventListener("click", () => {
 
   setTimeout(() => {
     pic.src = showingTruth
-      ? "https://picsum.photos/id/237/536/354"
-      : "https://picsum.photos/seed/picsum/536/354";
+      ? "https://picsum.photos/seed/picsum/536/354"
+      : "https://picsum.photos/id/237/536/354";
 
     showingTruth = !showingTruth;
     pic.classList.remove("glitch");
